@@ -9,6 +9,6 @@ app.get("/", (req, res) => {
   res.send("Hello from Express 🚀");
 });
 
-app.listen(8080, () => {
+app.listen(80, () => {
   console.log(`Server running on port ${PORT}`);
 });
